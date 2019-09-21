@@ -1,0 +1,12 @@
+name: jupyter-video-screenshot
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - ipywebrtc
+  - ipywidgets
+  - pip
+  - python=3.7
+  - pip:
+    - Jupyter-Video-Widget
